@@ -5,9 +5,9 @@ type HeartBeat struct {
 	Status string `json:"status"`
   }
   
-  func NewHeartBeat(version string, status string) *HeartBeat {
+func NewHeartBeat(version string, status string) *HeartBeat {
 	return &HeartBeat{
 		Version: version,
 		Status: status,
 	}
-  }
+}

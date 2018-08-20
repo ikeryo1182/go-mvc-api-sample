@@ -2,9 +2,7 @@ package controller
 
 import(
   "app/model"
-
   "net/http"
-
   "github.com/labstack/echo"
 )
 

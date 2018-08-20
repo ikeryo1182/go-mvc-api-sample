@@ -5,9 +5,9 @@ type Sample struct {
 	Name string `json:"name"`
   }
   
-  func NewSample(id int, name string) *Sample {
+func NewSample(id int, name string) *Sample {
 	return &Sample{
 		Id: id,
 		Name: name,
 	}
-  }
+}
