@@ -1,7 +1,7 @@
 package route
 
 import (
-  "app/controller/v1"
+  "app/api/controller/v1"
   "github.com/labstack/echo"
 )
 
